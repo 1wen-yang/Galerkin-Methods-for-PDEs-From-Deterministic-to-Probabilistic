@@ -256,7 +256,7 @@ def error_vs_pce_order(N=64, max_order=5, mc_samples=5000):
     plt.show()
     
 if __name__ == "__main__":
-    #main([4,8,16], mc_elements=128, mc_samples=5000)
-    #test_normalization()
+    main([4,8,16], mc_elements=128, mc_samples=5000)
+    test_normalization()
     error_vs_pce_order(N=256, max_order=5, mc_samples=8000)
     
